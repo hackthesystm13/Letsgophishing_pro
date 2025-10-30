@@ -24,7 +24,7 @@ def _port_open(host, port, timeout=0.5):
 
 
 class MetasploitManager:
-    """Manage a Metasploit RPC connection, starting a Docker container if needed."""
+    \"\"\"Manage a Metasploit RPC connection, starting a Docker container if needed.\"\"\"
 
     def __init__(self, host=DEFAULT_HOST, port=DEFAULT_PORT, user=DEFAULT_RPC_USER, password=DEFAULT_RPC_PASS,
                  auto_start_container=True, container_name=DEFAULT_CONTAINER_NAME, image=DEFAULT_DOCKER_IMAGE,

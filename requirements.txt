@@ -1,9 +1,4 @@
-PyQt5
-twilio
-requests
+pymetasploit3
 beautifulsoup4
 lxml
-metasploit
-urllib3
-pyminizip
-pyzipper
+pytest
